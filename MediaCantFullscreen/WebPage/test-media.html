@@ -5,6 +5,16 @@
     <title></title>
     <script type="text/javascript">
         function full() {
+			var myobj = document.getElementById('player');
+			//var content=document.getElementById('player').DisplaySize;
+			var content=document.getElementById('player');
+			content = '' ;
+			for(var key in myobj){ 
+				if(key==="fullScreen" || key==="DisplaySize"){
+						content +="屬性名稱："+ key+" ; 值： "+myobj[key]+"\n"; 
+				   }
+			}
+			alert(content);
             document.getElementById('player').DisplaySize = 3;
             document.getElementById('player').fullScreen = true;
         }

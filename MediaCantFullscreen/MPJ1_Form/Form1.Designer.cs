@@ -40,7 +40,8 @@
             this.webBrowser1.ScriptErrorsSuppressed = true;
             this.webBrowser1.Size = new System.Drawing.Size(791, 565);
             this.webBrowser1.TabIndex = 0;
-            this.webBrowser1.Url = new System.Uri("http://localhost/test-media.html", System.UriKind.Absolute);
+            this.webBrowser1.Url = new System.Uri("file:///C:/Users/user1/Documents/GitHub/QuestionAsk/MediaCantFullscreen/WebPage/t" +
+        "est-media.html", System.UriKind.Absolute);
             // 
             // Form1
             // 
