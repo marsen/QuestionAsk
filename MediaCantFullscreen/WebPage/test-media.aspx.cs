@@ -9,6 +9,7 @@ public partial class tests_test_media : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        TestLibrary.NorthwindEntities ne = new TestLibrary.NorthwindEntities();
 
     }
 }
